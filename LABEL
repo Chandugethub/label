@@ -1,0 +1,24 @@
+import javax.swing.JLabel;
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+
+
+import java.awt.Color;
+//import java.awt.color.*;
+public class Labelclg {
+	public static void main(String[] args) {
+		javax.swing.JFrame frame=new JFrame();		frame.setVisible(true);
+		frame.setSize(500,500);
+		
+		JLabel label = new JLabel();
+		label.setForeground(new Color(0,0,255));
+		
+		label.setText("hello fz-s");
+		label.setOpaque(true);
+		frame.add(label);
+	
+
+	}
+
+}
